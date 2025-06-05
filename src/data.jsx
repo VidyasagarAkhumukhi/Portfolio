@@ -124,7 +124,7 @@ export const projects = [
     url: 'https://drinkmasternoto.netlify.app/',
     github: 'https://github.com/VidyasagarAkhumukhi/MixMaster',
     title: 'Drink Master',
-    text: 'Drink Master is a dynamic web application built with React that allows users to explore a vast database of cocktails. Users can search for their favorite drinks, view detailed recipes including ingredients and instructions, and discover new concoctions. The application leverages TheCocktailDB API for fetching drink data and utilizes modern React features like React Router v6 for navigation and data loading, and TanStack Query (React Query) for efficient server state management. It also includes a newsletter signup feature.',
+    text: 'React app for exploring cocktails via TheCocktailDB API. Features search, recipes, React Router v6, TanStack Query for server state, and a newsletter signup.',
   },
   {
     id: nanoid(),
@@ -132,7 +132,7 @@ export const projects = [
     url: 'https://imagesearchnoto.netlify.app/',
     github: 'https://github.com/VidyasagarAkhumukhi/Image_Search',
     title: 'image Engine',
-    text: "This is a web application built with React that allows users to search for high-quality images using the official Unsplash API. Users can enter keywords to find relevant images, which are then displayed in a responsive gallery. The project also features a dark/light theme toggle that persists the user's preference in local storage and respects their operating system's color scheme preference. It demonstrates best practices for API integration, client-side state management with React Context, and server state management with TanStack Query (React Query).",
+    text: 'React image search app using Unsplash API. Features responsive gallery, persistent dark/light theme (respects OS), React Context, and TanStack Query.',
   },
   {
     id: nanoid(),
@@ -140,7 +140,7 @@ export const projects = [
     url: 'https://contentfulcmsprojects.netlify.app/',
     github: 'https://github.com/VidyasagarAkhumukhi/Contentful_CMS',
     title: 'Contentful CMS Project',
-    text: "This project is a React-based portfolio project website that dynamically fetches and displays project information from Contentful, a headless Content Management System (CMS). It demonstrates how to integrate a React frontend with Contentful to manage website content (like project details, images, and links) without needing to redeploy the frontend application for content updates. The application features a hero section and a projects gallery where each project's data is pulled directly from Contentful.",
+    text: 'React portfolio dynamically fetching project data from Contentful CMS. Allows content updates without redeploy; features hero section and projects gallery.',
   },
   {
     id: nanoid(),
@@ -148,7 +148,7 @@ export const projects = [
     url: 'https://cartnoto.netlify.app/',
     github: 'https://github.com/VidyasagarAkhumukhi/Cart',
     title: 'Cart',
-    text: "This project is a functional shopping cart interface built with React, demonstrating robust state management using the Context API and the useReducer hook. It fetches product data from an external API and allows users to manage cart items effectively. Key features include adding items (implicitly via fetched data), removing items, adjusting item quantities (increase/decrease), and clearing the entire cart. The application efficiently manages the cart state using a JavaScript Map data structure for optimized item lookups and updates. It also calculates and displays the total number of items and the total cost in real-time.",
+    text: 'React shopping cart using Context API & useReducer. Fetches product data, manages items (add, remove, quantity), and shows real-time totals & item count.',
   },
   {
     id: nanoid(),
@@ -156,7 +156,7 @@ export const projects = [
     url: 'https://colorgeneratornoto.netlify.app/',
     github: 'https://github.com/VidyasagarAkhumukhi/ColorGenerator',
     title: 'Color Palette Generator',
-    text: "This is a web application built with React that allows users to generate color palettes (tints and shades) based on a single input color. Enter a hex color code (or use the color picker), and the application will display a range of related colors, each showing its weight percentage and hex value. Clicking on any generated color swatch instantly copies its hex code to your clipboard. It's a useful tool for designers and developers looking for color variations or building color schemes. Error handling is included for invalid color inputs, utilizing toast notifications for a smooth user experience.",
+    text: 'React app generating color palettes (tints/shades) from hex input. Displays colors with hex/weight, offers click-to-copy, plus error handling via toasts.',
   },
   {
     id: nanoid(),
@@ -164,7 +164,7 @@ export const projects = [
     url: 'https://gorcerybudnoto.netlify.app/',
     github: 'https://github.com/VidyasagarAkhumukhi/GroceryBud',
     title: 'Grocery Bud - React Grocery List App',
-    text: "Grocery Bud is a straightforward grocery list application built with React. It allows users to easily add, remove, and mark items as complete. The list persists across browser sessions thanks to the use of localStorage. User actions like adding, deleting, or attempting to add an empty item are accompanied by helpful toast notifications. It's a practical example of a CRUD (Create, Read, Update, Delete) application using React hooks and local storage.",
+    text: 'Simple React grocery list app with CRUD operations (add, remove, complete). Uses localStorage for persistence and provides user-friendly toast notifications.',
   },
   {
     id: nanoid(),
@@ -172,7 +172,7 @@ export const projects = [
     url: 'https://menufilternoto.netlify.app/',
     github: 'https://github.com/VidyasagarAkhumukhi/Menu-Filter',
     title: 'React Menu Project',
-    text: 'A React application that displays a restaurant menu from a local data source and allows users to filter the items by category using dynamically generated buttons.',
+    text: 'React app displaying a filterable restaurant menu from local data. Users can filter items by category using dynamically generated buttons for easy Browse.',
   },
   {
     id: nanoid(),
@@ -180,7 +180,7 @@ export const projects = [
     url: 'https://submenusstrapinoto.netlify.app/',
     github: 'https://github.com/VidyasagarAkhumukhi/Strapi_Interface',
     title: 'Strapi-Style Submenu Navigation',
-    text: "This project implements a responsive navigation system inspired by Strapi's UI, built with React. It features a main navbar, a hero section, a toggleable sidebar for smaller screens, and dynamic submenus that appear when hovering over navigation links in the main navbar. The application utilizes the React Context API for global state management, handling the sidebar's open/closed state and tracking the currently active page link to display the corresponding submenu. The menu structure and content are driven by a centralized data file (data.jsx), making it easy to customize navigation links and submenu items.",
+    text: "React navigation system inspired by Strapi UI. Features responsive navbar, hero, toggleable sidebar, dynamic hover submenus, and Context API for state.",
   },
   {
     id: nanoid(),
@@ -188,7 +188,7 @@ export const projects = [
     url: 'https://profileslider.netlify.app/',
     github: 'https://github.com/VidyasagarAkhumukhi/profileSlider',
     title: 'React Image/Quote Slider',
-    text: 'This project is a simple and responsive image or quote slider component built with React. It allows you to display a list of items (in this case, people with images, names, titles, and quotes) in a rotating carousel with both manual and automatic navigation.',
+    text: 'Responsive React image/quote slider component. Displays items in a rotating carousel with support for both manual and automatic navigation options for users.',
   },
   {
     id: nanoid(),
@@ -196,7 +196,7 @@ export const projects = [
     url: 'https://sidebarnoto.netlify.app/',
     github: 'https://github.com/VidyasagarAkhumukhi/Sidebar',
     title: 'Sidebar and Modal Component with Context API',
-    text: 'This project demonstrates how to implement and manage the state of a Sidebar and a Modal component in a React application using the Context API for global state management. It features a main page with buttons to toggle the visibility of both the sidebar and the modal. The state (whether the sidebar or modal is open) is handled globally via a custom context hook (useGlobalContext), making it accessible throughout the component tree without prop drilling. The content for the sidebar links and social icons is dynamically loaded from a separate data file.',
+    text: 'React project demonstrating Sidebar and Modal implementation. Manages component state globally using the React Context API for efficient state sharing.',
   },
   {
     id: nanoid(),
@@ -204,7 +204,7 @@ export const projects = [
     url: 'https://toursprojectnoto.netlify.app/',
     github: 'https://github.com/VidyasagarAkhumukhi/Tours',
     title: 'Interactive React Tours Project',
-    text: 'An interactive web application built with React that fetches and displays tour package information from an API. Users can browse tours, read descriptions, and remove tours they are not interested in.',
+    text: 'Interactive React app fetching and displaying tour packages from an API. Users can browse details, read descriptions, and easily remove unwanted tours.',
   },
   {
     id: nanoid(),
@@ -212,7 +212,7 @@ export const projects = [
     url: 'https://reviewcarouselnoto.netlify.app/',
     github: 'https://github.com/VidyasagarAkhumukhi/React-Reviews-Carousel',
     title: 'React Reviews Carousel Project',
-    text: 'An interactive component built with React to display and cycle through user reviews or testimonials. Users can navigate sequentially using previous/next buttons or view a random review with the "Surprise Me" button.',
+    text: "Interactive React component displaying user reviews/testimonials. Features sequential navigation (prev/next buttons) and a 'Surprise Me' random review option.",
   },
   {
     id: nanoid(),
@@ -220,7 +220,7 @@ export const projects = [
     url: 'https://faqsnoto.netlify.app/',
     github: 'https://github.com/VidyasagarAkhumukhi/FAQ-section?tab=readme-ov-file',
     title: 'React FAQ Accordion Component',
-    text: 'A simple React component that displays a list of frequently asked questions (FAQs) in an accordion style. Clicking on a question reveals its answer, and only one answer can be shown at a time.',
+    text: 'Simple React component displaying FAQs in an accordion style. Clicking a question reveals its answer, showing only one answer at a time for clarity.',
   },
   {
     id: nanoid(),
@@ -228,7 +228,6 @@ export const projects = [
     url: 'https://backroadstes.netlify.app/',
     github: 'https://github.com/VidyasagarAkhumukhi/temp-backroads-app',
     title: 'BackRoad Page',
-    text: 'A Simple React based backroads page to explore Various tours.',
+    text: "Simple React-based 'Backroads' landing page for exploring various tour packages. Offers a clean interface for users to browse available tour options and destinations.",
   },
-
 ];
