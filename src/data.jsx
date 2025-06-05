@@ -228,6 +228,6 @@ export const projects = [
     url: 'https://backroadstes.netlify.app/',
     github: 'https://github.com/VidyasagarAkhumukhi/temp-backroads-app',
     title: 'BackRoad Page',
-    text: "Simple React-based 'Backroads' landing page for exploring various tour packages. Offers a clean interface for users to browse available tour options and destinations.",
+    text: "Simple React-based 'Backroads' landing page for exploring various tour packages. Offers a clean interface for users to browse available tour options and destinations",
   },
 ];
