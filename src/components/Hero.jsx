@@ -10,7 +10,7 @@ const Hero = () => {
                 <div className='align-element grid md:grid-cols-2 items-center gap-8'>
                     <article >
                         <h1 className='text-7xl font-bold tracking-wider' id='hero'>
-                            I'm Noob
+                            I'm Vidyasagar
                         </h1>
                         <p className='mt-4 text-3xl font-bold text-stone-600 capitalize tracking-wide'>Front-End Developer</p>
                         <p className='mt-1 text-lg text-stone-400 capitalize tracking-wider'>turning ideas into interactive reality</p>
