@@ -116,8 +116,17 @@ import imgTours from './assets/Tours.png'
 import imgBackroads from './assets/Backroads.png'
 import imgReviewCarousel from './assets/ReviewCarousel.png'
 import imgFAQ from './assets/FAQ.png'
+import imgStore from '.assets/Store.png'
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: imgStore,
+    url: 'https://store-vidyasagars-projects-d688ebda.vercel.app/',
+    github: 'https://github.com/VidyasagarAkhumukhi/Store',
+    title: 'Store',
+    text: 'Working on the full Stack store project',
+  },
   {
     id: nanoid(),
     img: imgDrinkMaster,
