@@ -4,15 +4,19 @@ import Hero from './components/Hero'
 import Skills from './components/Skills'
 import About from './components/About'
 import Projects from './components/Projects'
+import Connect from './components/Connect'
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Skills />
-      <About />
-      <Projects />
+      <main className='relative'>
+        <Hero />
+        <Skills />
+        <About />
+        <Projects />
+        <Connect />
+      </main>
     </>
   )
 }

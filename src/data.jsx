@@ -117,15 +117,24 @@ import imgBackroads from './assets/Backroads.png'
 import imgReviewCarousel from './assets/ReviewCarousel.png'
 import imgFAQ from './assets/FAQ.png'
 import imgStore from './assets/Store.png'
+import imgJobTrackAI from './assets/JobTrackAI.png'
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: imgJobTrackAI,
+    url: 'https://job-tracker-ai-tau.vercel.app/',
+    github: 'https://github.com/VidyasagarAkhumukhi/JobTracker',
+    title: 'JobTrackAI',
+    text: 'A comprehensive, full-stack web application designed to streamline job application tracking and management with advanced AI-powered automation.',
+  },
   {
     id: nanoid(),
     img: imgStore,
     url: 'https://store-vidyasagars-projects-d688ebda.vercel.app/',
     github: 'https://github.com/VidyasagarAkhumukhi/Store',
     title: 'Store',
-    text: 'Working on the full Stack store project',
+    text: 'This is a full-stack e-commerce application built with the Next.js 15+ App Router, demonstrating a modern, robust, and scalable architecture',
   },
   {
     id: nanoid(),
