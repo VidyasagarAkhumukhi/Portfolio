@@ -117,8 +117,12 @@ import imgBackroads from './assets/Backroads.png'
 import imgReviewCarousel from './assets/ReviewCarousel.png'
 import imgFAQ from './assets/FAQ.png'
 import imgStore from './assets/Store.png'
+<<<<<<< HEAD
 import imgJobTrackAI from './assets/JobTrackAI.png'
 
+=======
+ 
+>>>>>>> 13cdaf5a7f72936b413c7acba4cdda66384d58f4
 export const projects = [
   {
     id: nanoid(),
