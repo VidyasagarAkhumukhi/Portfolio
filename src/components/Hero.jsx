@@ -45,7 +45,7 @@ const Hero = () => {
                             <div className='space-y-2 animate-fade-in [animation-delay:0.6s]'>
                                 <div className='text-xl md:text-2xl lg:text-3xl font-bold'>
                                     <TrueFocus
-                                        sentence="Frontend Developer"
+                                        sentence="Software Engineer"
                                         manualMode={false}
                                         blurAmount={3}
                                         borderColor="#f75555"
