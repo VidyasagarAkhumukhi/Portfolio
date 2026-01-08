@@ -52,12 +52,12 @@ export const skills = [
     icon: <SiNextdotjs className='h-16 w-16 text-white' />, // Adapts to dark/light mode or use text-neutral-800
     text: 'Experienced with Next.js for server-rendered React applications, focusing on performance, SEO, and enhanced user experiences.',
   },
-  // {
-  //   id: nanoid(),
-  //   title: 'Node.js & Express.js',
-  //   icon: <FaNodeJs className='h-16 w-16 text-green-500' />,
-  //   text: 'Proficient in Node.js and Express.js for building fast, scalable server-side applications and RESTful APIs.',
-  // },
+  {
+    id: nanoid(),
+    title: 'Node.js & Express.js',
+    icon: <FaNodeJs className='h-16 w-16 text-green-500' />,
+    text: 'Proficient in Node.js and Express.js for building fast, scalable server-side applications and RESTful APIs.',
+  },
   // {
   //   id: nanoid(),
   //   title: 'Redux Toolkit',
@@ -70,12 +70,12 @@ export const skills = [
   //   icon: <SiReactquery className='h-16 w-16 text-red-500' />,
   //   text: 'Skilled in React Query for streamlined server state management in React, handling data fetching, caching, and synchronization effectively.',
   // },
-  // {
-  //   id: nanoid(),
-  //   title: 'Prisma',
-  //   icon: <SiPrisma className='h-16 w-16 text-indigo-500' />, // Or text-sky-700 dark:text-sky-300
-  //   text: 'Experienced with Prisma ORM for type-safe database access and management in Node.js and TypeScript projects.',
-  // },
+  {
+    id: nanoid(),
+    title: 'Prisma',
+    icon: <SiPrisma className='h-16 w-16 text-indigo-500' />, // Or text-sky-700 dark:text-sky-300
+    text: 'Experienced with Prisma ORM for type-safe database access and management in Node.js and TypeScript projects.',
+  },
   {
     id: nanoid(),
     title: 'Git',
