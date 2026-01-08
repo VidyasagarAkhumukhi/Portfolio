@@ -89,7 +89,7 @@ const About = () => {
                                         <div>
                                             <h3 className='text-lg font-semibold text-white mb-2'>Passionate Developer</h3>
                                             <p className='text-gray-300 leading-relaxed'>
-                                                Hello, I'm <span className='text-purple-400 font-medium'>Vidyasagar Akhumukhi</span>, a front-end developer whose journey from Mumbai to Galway has been fueled by a passion for crafting web experiences that are not only functional but genuinely delightful to use.
+                                                Hello, I'm <span className='text-purple-400 font-medium'>Vidyasagar Akhumukhi</span>, a software engineer whose journey from Mumbai to Galway has been fueled by a passion for crafting web experiences that are not only functional but genuinely delightful to use.
                                             </p>
                                         </div>
                                     </div>
@@ -119,7 +119,7 @@ const About = () => {
                                         <div>
                                             <h3 className='text-lg font-semibold text-white mb-2'>Ready to Collaborate</h3>
                                             <p className='text-gray-300 leading-relaxed'>
-                                                Currently based in Galway with <span className='text-green-400 font-medium'>Stamp 1G authorization</span> for full-time work. I'm eager to join a collaborative team and apply my front-end skills to build polished, user-centric applications.
+                                                Currently based in Galway with <span className='text-green-400 font-medium'>Stamp 1G authorization</span> for full-time work. I'm eager to join a collaborative team and apply my software developer skills to build polished, user-centric applications.
                                             </p>
                                         </div>
                                     </div>
